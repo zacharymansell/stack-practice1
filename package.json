@@ -1,0 +1,14 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "stack practice",
+  "main": "stack.js",
+  "scripts": {
+    "test": "jest stack.test.js --watch"
+  },
+  "author": "zach mansell",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
