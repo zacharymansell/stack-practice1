@@ -18,5 +18,6 @@ describe('Stack', () => {
     expect(stack.pop()).toEqual('world')
     expect(stack.storage['1']).toBeUndefined();
     expect(stack.size()).toEqual(1)
+    expect(stack.pop()).toEqual('hello')
   })
 })
